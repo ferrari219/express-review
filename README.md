@@ -1,5 +1,6 @@
 # express-review
-first express review
+first express review 
+수업01
 
 1. 절대경로로 지정할 방법 있나요?: const config = require('../config/config');
    // /models/index.js 2번 라인
