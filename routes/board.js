@@ -1,5 +1,5 @@
 const express = require('express');
-const board = require('../controllers/board'); //? 절대경로 할 방법이 있나요?  똑같이 .env 만들면 되나요?
+const board = require('../controllers/board'); //? 절대경로(controllers/board) 할 방법이 있나요?  똑같이 .env랑 jsconfig.json 만들면 되나요? 해봤는데 잘 안되서요.
 const route = express.Router();
 
 // route.use('/', (req, res, next) => {
